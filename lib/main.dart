@@ -1,3 +1,4 @@
+import 'package:blog_app_front_end/pages/signinPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,7 +10,8 @@ class mainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: signinpage(),
+      debugShowCheckedModeBanner: false,
+      home: signinPage(),
     );
   }
 }
